@@ -1,0 +1,514 @@
+*{
+    background-color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+/* Header Section */
+#main-header {
+    background-color: #f4f4f4;
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+/* Navigation Bar */
+nav {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-link {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #007BFF;
+}
+
+/* Flex Container for Profile */
+.header-container {
+    display: flex;
+    align-items: center;
+    max-width: 900px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+/* Profile Picture */
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #333;
+    margin-right: 20px;
+}
+
+/* Header Text */
+.header-text h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.header-text p {
+    font-size: 18px;
+    color: #666;
+}
+/* Add styles for the languages section */
+#languages {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+#languages h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+#languages ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#languages li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+#languages li strong {
+    color: #007BFF;
+}
+
+
+/* About Section Styling */
+#about {
+    background-color: #fff;
+    padding: 50px;
+    width: 80%;
+    margin: 30px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Headings */
+#about h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#about h3 {
+    font-size: 22px;
+    color: #444;
+    margin-top: 20px;
+}
+
+/* Paragraph & List */
+#about p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+#about ul {
+    list-style: none;
+    padding: 0;
+}
+
+#about li {
+    font-size: 18px;
+    color: #555;
+    padding: 10px;
+    background: #f4f4f4;
+    margin: 10px 0;
+    border-left: 5px solid #333;
+    display: inline-block;
+    width: 60%;
+    text-align: left;
+}
+
+/* Call to Action */
+#about p:last-child {
+    font-weight: bold;
+    font-size: 20px;
+    color: #222;
+    margin-top: 20px;
+}
+
+/* Hover Effect */
+#about li:hover {
+    background: #ddd;
+    transition: 0.3s;
+}
+/* Educational Background Section */
+#education {
+    background-color: #f9f9f9;
+    padding: 50px;
+    width: 80%;
+    margin: 30px auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Section Heading */
+#education h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Education Item */
+.education-item {
+    background: white;
+    padding: 20px;
+    margin: 15px auto;
+    width: 60%;
+    border-left: 5px solid #333;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Education Title */
+.education-item h3 {
+    font-size: 22px;
+    color: #444;
+    margin-bottom: 5px;
+}
+
+/* Education Institution & Year */
+.education-item p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Download CV Button */
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+/* Project Section */
+#projects {
+    background-color: #fff;
+    padding: 50px;
+    width: 80%;
+    margin: 30px auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Project Grid */
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Project Item */
+.project-item {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s;
+}
+
+.project-item:hover {
+    transform: scale(1.05);
+}
+
+/* Project Title */
+.project-item h3 {
+    font-size: 22px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+/* Project Description */
+.project-item p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Buttons */
+.project-item .btn, .project-item .github-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+    margin-right: 10px;
+}
+
+/* Different style for GitHub link */
+.project-item .github-link {
+    background-color: #6e5494; /* GitHub color */
+}
+
+.project-item .btn:hover {
+    background-color: #555;
+}
+
+.project-item .github-link:hover {
+    background-color: #563d7c;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #f9f9f9;
+    padding: 50px;
+    width: 80%;
+    margin: 30px auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Section Heading */
+#skills h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Skills Container */
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Individual Skill Item */
+.skill-item {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.skill-item:hover {
+    transform: scale(1.05);
+    background-color: #e2e2e2;
+}
+/* Interests Section */
+#interests {
+    background-color: #f9f9f9;
+    padding: 50px;
+    width: 80%;
+    margin: 30px auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Section Heading */
+#interests h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Interests Section */
+#interests {
+    background-color: #f9f9f9;
+    padding: 50px;
+    width: 80%;
+    margin: 30px auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Section Heading */
+#interests h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Interests Container */
+.interests-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Individual Interest Item */
+.interest-item {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.interest-item:hover {
+    transform: scale(1.05);
+    background-color: #e2e2e2;
+}
+/* Contact Section */
+#contact {
+    background-color: #f9f9f9;
+    padding: 50px;
+    width: 80%;
+    margin: 30px auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Section Heading */
+#contact h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Contact Button */
+.contact-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4da3ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.contact-btn:hover {
+    background-color: #007bff;
+}
+
+/* Hidden Contact Form */
+.contact-form-container {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+    width: 80%;
+    max-width: 400px;
+}
+
+/* Show Contact Form when clicked */
+:target {
+    display: block;
+}
+
+/* Close Button */
+.close-btn {
+    display: block;
+    text-align: right;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.close-btn:hover {
+    color: red;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333; /* Dark background */
+    color: white; /* White text color */
+    text-align: center; /* Center-align the text */
+    padding: 20px 0; /* Add space around the footer */
+    position: relative; /* Ensure it stays at the bottom of the page */
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    font-size: 16px; /* Smaller text for copyright */
+    margin: 0;
+}
+
+.social-links {
+    margin-top: 12px; /* Add some space above the social icons */
+}
+
+.social-links a {
+    color: white; /* White color for icons */
+    margin: 0 20px; /* Add space between the icons */
+    font-size: 30px; /* Icon size */
+    transition: color 0.3s; /* Smooth color change effect */
+}
+
+.social-links a:hover {
+    color: #1da1f2; /* Change color when hovering over the icons (for LinkedIn and GitHub) */
+}
+
+.social-links i {
+    display: inline-block; /* Ensure the icons are displayed inline */
+}
+
+/* Optional: To make the icons responsive on smaller screens */
+@media (max-width: 768px) {
+    .footer {
+        padding: 10px 0;
+    }
+    .social-links a {
+        font-size: 28px; /* Slightly smaller icons on small screens */
+        margin: 0 10px; /* Less margin on smaller screens */
+    }
+}
