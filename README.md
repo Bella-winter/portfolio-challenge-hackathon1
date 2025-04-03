@@ -57,7 +57,7 @@ This portfolio is a responsive website that highligts intrests of an aspiring Fu
   
   •	LinkedIn: https://www.linkedin.com/in/pauline-mwangi-645b20286
   
-  •	GitHub: @Bella-winter 
+  •	GitHub: https://github.com/Bella-winter
 
 
    🔄 Setup and Installation
@@ -70,11 +70,15 @@ This portfolio is a responsive website that highligts intrests of an aspiring Fu
 
 # 🌟File Structure
 
-portfolio/
-│── index.html          # Main HTML file
-│── styles.css          # External CSS file
-│── images/             # Folder for images (e.g., profile picture)
-│── README.md           # Project documentation
+ portfolio/
+
+ │── index.html          # Main HTML file
+
+ │── styles.css          # External CSS file
+
+ │── images/             # Folder for images (e.g., profile picture)
+
+ │── README.md           # Project documentation
 
 # 🌟How to Use🚀
 
